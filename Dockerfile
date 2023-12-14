@@ -8,4 +8,3 @@ RUN apk update && apk upgrade libcrypto3 libssl3
 
 EXPOSE 80 443  
 
-
