@@ -1,4 +1,4 @@
-FROM node:18-alpine3.19
+FROM node:16-alpine
 
 RUN apk update && apk add nginx yarn bash grep nano coreutils curl libgd apache2-utils supervisor
 
