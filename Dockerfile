@@ -2,6 +2,6 @@ FROM node:16-alpine
 
 RUN apk update && apk add nginx yarn bash grep nano coreutils curl libgd apache2-utils supervisor
 
-RUN apk update && apk upgrade libcrypto3 libssl3 openssl apache2 busybox
+RUN apk update && apk upgrade libcrypto3 libssl3 openssl apache2 busybox apache2-utils
 
 EXPOSE 80 443
